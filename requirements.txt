@@ -1,0 +1,16 @@
+torch~=1.13.1
+torchvision~=0.14.1
+ml-collections
+medpy~=0.4.0
+SimpleITK~=2.0.2
+scipy~=1.7.3
+h5py~=3.7.0
+timm~=0.4.12
+einops~=0.6.1
+nibabel~=4.0.2
+matplotlib~=3.2.2
+PyYAML~=6.0.1
+yacs~=0.1.8
+opencv-python~=4.9.0.80
+scikit-image~=0.19.3
+imgaug~=0.4.0
