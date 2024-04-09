@@ -76,7 +76,7 @@ python train.py --dataset Synapse --output_dir './model_output_Synapse' --max_ep
 ```
 python train.py --dataset Synapse --output_dir './model_output_ACDC' --max_epochs 1000 --batch_size 12
 ```
-***
+
 ## 4. Testing
 - Download the pretrained model for inference. [Get pretrained model in this link] [![](https://img.shields.io/badge/Pretrained-🚀Replicate-blue.svg)](https://drive.google.com/drive/folders/1IYZjQWIdCBWFT8fZFC_NQ-sACQH-CNOE?usp=sharing). **Please save the .pth file in the ./model_output_Synapse or ./model_output_ACDC**.
 ```
@@ -85,7 +85,7 @@ python test.py --dataset Synapse --is_saveni True --output_dir './model_output_S
 ```
 python test.py --dataset ACDC --is_saveni True --output_dir './model_output_ACDC' --max_epoch 1000 --batch_size 12 --test_save_dir './model_output_ACDC/predictions'
 ```
-***
+
 ## 5. Results
 - Segmentation accuracy of different methods on the Synapse multi-organ CT
 dataset. The best results are shown in **bold**.
@@ -141,7 +141,7 @@ and the most accurate segmentation outcomes.
 our Perspective+ Unet’s accuracy in feature identification and localization.
 
 ![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/intermediate.png)
-***
+
 ## 6. Reference
 - [TransUnet](https://github.com/Beckschen/TransUNet)
 - [SwinUnet](https://github.com/microsoft/Swin-Transformer)
