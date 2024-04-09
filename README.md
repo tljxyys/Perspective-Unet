@@ -129,7 +129,7 @@ results are shown in **bold**.
 | Setting 1 | ✖️ | ✖️ | ✖️ | 84.04 | 16.63 |
 | Setting 2 | ✔️ | ✖️ | ✖️ | 83.36 | 14.70 |
 | Setting 3 | ✔️ | ✔️ | ✖️ | 83.92 | 13.94 |
-| Setting 4 | ✔️ | ✔️ | ✔️ | 84.63 | 11.74 | 
+| Setting 4 | ✔️ | ✔️ | ✔️ | **84.63** | **11.74** | 
 
 
 - Visualized segmentation results of different methods on the Synapse multi-organ CT dataset. Our method (the last column) exhibits the smoothest boundaries
