@@ -1,7 +1,7 @@
 # Perspective+ Unet: Enhancing Segmentation with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields
-<p align="center">
+
 [![](https://img.shields.io/badge/Project-Page-green.svg)](https://github.com/tljxyys/Perspective-Unet) [![](https://img.shields.io/badge/Paper-ArXiv-red.svg)](https://github.com/tljxyys/Perspective-Unet) [![](https://img.shields.io/badge/Pretrained-🚀Replicate-blue.svg)](https://github.com/tljxyys/Perspective-Unet)
-</p>
+
 >**Abstract**: _Precise segmentation of medical images is fundamental for extracting critical clinical information, which plays a pivotal role
 in enhancing the accuracy of diagnoses, formulating effective treatment plans, and improving patient outcomes. Although Convolutional Neural
 Networks (CNNs) and non-local attention methods have achieved notable success in medical image segmentation, they either struggle to capture
