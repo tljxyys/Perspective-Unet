@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 ***
 ## 2. Data Preparation
-The datasets we used are provided by TransUnet's authors. [Get processed data in this link] (https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License). The directory structure of the whole project is as follows:
+The datasets we used are provided by TransUnet's authors. [Get processed data in this link] [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License). The directory structure of the whole project is as follows:
 ```
 .
 ├── datasets
