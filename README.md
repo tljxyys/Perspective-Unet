@@ -120,7 +120,9 @@ results are shown in **bold**.
 | MISSFormer | 91.19 | 89.85 | 88.38 | 95.34 |
 | nnFormer | 92.06 | 90.94 | 89.58 | 95.65 |
 | **Perspective+ (Ours)** | **92.54** | **90.92** | **90.49** | **96.20** |
-***
+
+- Visualization of attention heat maps from the intermediate layers of the network. Highlighting areas are closely aligned with segmentation labels, demonstrating
+our Perspective+ Unet’s accuracy in feature identification and localization.
 ![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/visual_results.png)
 
 
