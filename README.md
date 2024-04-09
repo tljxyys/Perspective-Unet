@@ -6,13 +6,13 @@ in enhancing the accuracy of diagnoses, formulating effective treatment plans, a
 Networks (CNNs) and non-local attention methods have achieved notable success in medical image segmentation, they either struggle to capture
 long-range spatial dependencies due to their reliance on local features, or face significant computational and feature integration challenges
 when attempting to address this issue with global attention mechanisms. To overcome existing limitations in medical image segmentation, we propose
-a novel architecture, Perspective+ Unet. This framework is characterized by three major innovations: (i) It introduces a dual-pathway strategy
+a novel architecture, Perspective+ Unet. This framework is characterized by three major innovations: **(i)** It introduces a dual-pathway strategy
 at the encoder stage that combines the outcomes of traditional and dilated convolutions. This not only maintains the local receptive field but
-also significantly expands it, enabling better comprehension of the global structure of images while retaining detail sensitivity. (ii) The framework
+also significantly expands it, enabling better comprehension of the global structure of images while retaining detail sensitivity. **(ii)** The framework
 incorporates an efficient non-local transformer block, named ENLTB, which utilizes kernel function approximation for effective long-range dependency
-capture with linear computational and spatial complexity. (iii) A Spatial Cross-Scale Integrator strategy is employed to merge global dependencies
+capture with linear computational and spatial complexity. **(iii)** A Spatial Cross-Scale Integrator strategy is employed to merge global dependencies
 and local contextual cues across model stages, meticulously refining features from various levels to harmonize global and local information.
-Experimental results on the ACDC and Synapse datasets demonstrate the effectiveness of our proposed Perspective+ Unet. _
+Experimental results on the ACDC and Synapse datasets demonstrate the effectiveness of our proposed Perspective+ Unet._
 >
 ![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/model_architecture.png)
 ***
