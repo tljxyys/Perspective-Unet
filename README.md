@@ -69,15 +69,15 @@ The datasets we used are provided by TransUnet's authors. [Get processed data in
 ## 3. Training
 - Run the train script on synapse dataset. The batch size and epoch we used is 12 and 600, respectively.
 ```
-python train.py --dataset Synapse --output_dir './model_output_Synapse' --max_epochs 600 --img_size 224 --base_lr 0.05 --batch_size 12
+python train.py --dataset Synapse --output_dir './model_output_Synapse' --max_epochs 600 --img_size 224 --batch_size 12
 ```
 - Run the train script on ACDC dataset. The batch size and epoch we used is 12 and 1000, respectively.
 ```
-python train.py --dataset Synapse --output_dir './model_output_ACDC' --max_epochs 1000 --img_size 224 --base_lr 0.05 --batch_size 12
+python train.py --dataset Synapse --output_dir './model_output_ACDC' --max_epochs 1000 --img_size 224 --batch_size 12
 ```
 ***
 ## 4. Testing
-Download the pretrained model for inference. [Get pretrained model in this link] (https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). Please save the .pth file in the ./model_output_Synapse or ./model_output_ACDC
+Download the pretrained model for inference. [Get pretrained model in this link] [![](https://img.shields.io/badge/Pretrained-🚀Replicate-blue.svg)](https://drive.google.com/drive/folders/1IYZjQWIdCBWFT8fZFC_NQ-sACQH-CNOE?usp=sharing). Please save the .pth file in the ./model_output_Synapse or ./model_output_ACDC
 ```
 python test.py --dataset Synapse --is_saveni True --output_dir './model_output_Synapse' --max_epoch 600 --batch_size 12 --test_save_dir './model_output_Synapse/predictions'
 ```
