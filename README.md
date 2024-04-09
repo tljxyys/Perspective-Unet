@@ -15,9 +15,9 @@ and local contextual cues across model stages, meticulously refining features fr
 Experimental results on the ACDC and Synapse datasets demonstrate the effectiveness of our proposed Perspective+ Unet. The code is available in the
 supplementary material._
 >
-![image](https://github.com/tljxyys/RDSTN_ultrasound/blob/main/fig/Figure%201.png)
+![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/model_architecture.png)
 ***
-![image](https://github.com/tljxyys/RDSTN_ultrasound/blob/main/fig/Figure%202.png)
+![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/visual_results.png)
 ***
 ## Dependencies and Installation
 * Clone this repo:
