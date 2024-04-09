@@ -87,7 +87,8 @@ python test.py --dataset ACDC --is_saveni True --output_dir './model_output_ACDC
 ***
 ## 5. Results
 - Segmentation accuracy of different methods on the Synapse multi-organ CT
-dataset. The best results are shown in bold.
+dataset. The best results are shown in **bold**.
+
 | Methods | DSC⬆️ | HD⬇️ | Aorta | Gallbladder | Kidney(L) | Kidney(R) | Liver | Pancreas | Spleen | Stomach |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | U-Net | 76.85 | 39.70 | 89.07 | 69.72 | 77.77 | 68.60 | 93.43 | 53.98 | 86.67 | 75.58 |
@@ -104,7 +105,8 @@ dataset. The best results are shown in bold.
 | __Perspective+ (Ours)__ | __84.63__ | __11.74__ | 89.38 | 70.80 | 87.57 | 85.78 | 95.30 | __70.71__ | __94.41__ | __83.06__ |
 
 - Segmentation accuracy of different methods on the ACDC dataset. The best
-results are shown in bold.
+results are shown in **bold**.
+
 | Methods | DSC⬆️ | RV | Myo | LV |
 | --- | --- | --- | --- | --- |
 | R50 U-Net | 87.55 | 87.10 | 80.63 | 94.92 |
