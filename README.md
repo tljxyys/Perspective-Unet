@@ -28,7 +28,7 @@ cd Perspective-Unet
 conda create -n perspective_unet python=3.7 -y
 conda activate perspective_unet
 ```
-* install packages:
+* Install packages:
 ```
 pip install -r requirements.txt
 ```
