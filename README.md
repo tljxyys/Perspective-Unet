@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 ***
 ## 2. Data Preparation
-The datasets we used are provided by TransUnet's authors. [Get processed data in this link] [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License). The directory structure of the whole project is as follows:
+- The datasets we used are provided by TransUnet's authors. [Get processed data in this link] [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License). The directory structure of the whole project is as follows:
 ```
 .
 ├── datasets
@@ -77,7 +77,7 @@ python train.py --dataset Synapse --output_dir './model_output_ACDC' --max_epoch
 ```
 ***
 ## 4. Testing
-Download the pretrained model for inference. [Get pretrained model in this link] [![](https://img.shields.io/badge/Pretrained-🚀Replicate-blue.svg)](https://drive.google.com/drive/folders/1IYZjQWIdCBWFT8fZFC_NQ-sACQH-CNOE?usp=sharing). Please save the .pth file in the ./model_output_Synapse or ./model_output_ACDC
+- Download the pretrained model for inference. [Get pretrained model in this link] [![](https://img.shields.io/badge/Pretrained-🚀Replicate-blue.svg)](https://drive.google.com/drive/folders/1IYZjQWIdCBWFT8fZFC_NQ-sACQH-CNOE?usp=sharing). **Please save the .pth file in the ./model_output_Synapse or ./model_output_ACDC**.
 ```
 python test.py --dataset Synapse --is_saveni True --output_dir './model_output_Synapse' --max_epoch 600 --batch_size 12 --test_save_dir './model_output_Synapse/predictions'
 ```
