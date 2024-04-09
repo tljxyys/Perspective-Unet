@@ -12,8 +12,7 @@ also significantly expands it, enabling better comprehension of the global struc
 incorporates an efficient non-local transformer block, named ENLTB, which utilizes kernel function approximation for effective long-range dependency
 capture with linear computational and spatial complexity. (iii) A Spatial Cross-Scale Integrator strategy is employed to merge global dependencies
 and local contextual cues across model stages, meticulously refining features from various levels to harmonize global and local information.
-Experimental results on the ACDC and Synapse datasets demonstrate the effectiveness of our proposed Perspective+ Unet. The code is available in the
-supplementary material._
+Experimental results on the ACDC and Synapse datasets demonstrate the effectiveness of our proposed Perspective+ Unet. _
 >
 ![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/model_architecture.png)
 ***
