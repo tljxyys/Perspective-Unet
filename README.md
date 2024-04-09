@@ -17,7 +17,7 @@ supplementary material._
 >
 ![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/model_architecture.png)
 ***
-## Dependencies and Installation
+## 1. Dependencies and Installation
 * Clone this repo:
 ```
 https://github.com/tljxyys/Perspective-Unet.git
@@ -33,6 +33,38 @@ conda activate perspective_unet
 pip install -r requirements.txt
 ```
 ***
+## 2. Data Preparation
+The datasets we used are provided by TransUnet's authors. [Get processed data in this link] (https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License). The directory structure of the whole project is as follows:
+```
+.
+├── datasets
+│   └──
+├── lists
+│   └── 
+├── data
+│   ├── Synapse
+│   │   ├── train_npz
+│   │   │   ├── case0005_slice000.npz
+│   │   │   └── *.npz
+│   │   └── test_vol_h5
+│   │       ├── case0001.npy.h5
+│   │       └── *.npy.h5
+│   └── ACDC
+│       ├── train
+│       │   ├── case_001_sliceED_0.npz
+│       │   └── *.npz
+│       ├── test
+│       │   ├── case_002_volume_ED.npz
+│       │   └── *.npz
+│       └── train
+│           ├── case_019_sliceED_0.npz
+│           └── *.npz
+├── networks
+│   └── 
+├── train
+├── test
+└── trainer
+```
 ## Results
 | First Header  | Second Header |
 | ------------- | ------------- |
