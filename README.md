@@ -147,9 +147,3 @@ our Perspective+ Unet’s accuracy in feature identification and localization.
 - [SwinUnet](https://github.com/microsoft/Swin-Transformer)
 - [MissFormer](https://github.com/ZhifangDeng/MISSFormer)
 
-## 7. Citation
-```
-This work was done by Jintong Hu, Siyan Chen, Zhiyi Pan, Sen Zeng, Wenming Yang*.
-```
-
-
