@@ -1,5 +1,5 @@
 # Perspective+ Unet: Enhancing Segmentation with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields
-[paper](https://ieeexplore.ieee.org/document/10447712) | [code](https://github.com/tljxyys/RDSTN_ultrasound)
+[paper] | [code](https://github.com/tljxyys/Perspective-Unet) | [pretrained model]
 ***
 >Abstract: _Precise segmentation of medical images is fundamental for extracting critical clinical information, which plays a pivotal role
 in enhancing the accuracy of diagnoses, formulating effective treatment plans, and improving patient outcomes. Although Convolutional Neural
@@ -7,7 +7,7 @@ Networks (CNNs) and non-local attention methods have achieved notable success in
 long-range spatial dependencies due to their reliance on local features, or face significant computational and feature integration challenges
 when attempting to address this issue with global attention mechanisms. To overcome existing limitations in medical image segmentation, we propose
 a novel architecture, Perspective+ Unet. This framework is characterized by three major innovations: (i) It introduces a dual-pathway strategy
-at the encoder stage that combines the outcomes of traditional and dilated convolutions. This not only maintains the local receptive field but
+at the encoder stage that combines the outcomes of traditional and dilated convolutions. This not only maintains the local receptive field but
 also significantly expands it, enabling better comprehension of the global structure of images while retaining detail sensitivity. (ii) The framework
 incorporates an efficient non-local transformer block, named ENLTB, which utilizes kernel function approximation for effective long-range dependency
 capture with linear computational and spatial complexity. (iii) A Spatial Cross-Scale Integrator strategy is employed to merge global dependencies
@@ -22,23 +22,17 @@ supplementary material._
 ## Dependencies and Installation
 * Clone this repo:
 ```
-https://github.com/tljxyys/RDSTN_ultrasound.git
-cd RDSTN_ultrasound
+https://github.com/tljxyys/Perspective-Unet.git
+cd Perspective-Unet
 ```
 * Create a conda virtual environment and activate:
 ```
-conda create -n rdstn python=3.7 -y
-conda activate rdstn
+conda create -n perspective_unet python=3.7 -y
+conda activate perspective_unet
 ```
-* install necessary packages:
+* install packages:
 ```
-conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 -c pytorch
-pip install timm==0.4.12
-pip install opencv-python==4.4.0.46 termcolor==1.1.0 yacs==0.1.8 pyyaml scipy
-```
-* Other requirements:
-```
-TensorboardX, yaml, numpy, tqdm, imageio
+pip install -r requirements.txt
 ```
 ***
 ## Results
