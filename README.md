@@ -122,6 +122,16 @@ results are shown in **bold**.
 | nnFormer | 92.06 | 90.94 | 89.58 | 95.65 |
 | **Perspective+ (Ours)** | **92.54** | **90.92** | **90.49** | **96.20** |
 
+- Ablation study on the impact of modules.
+  
+| Model | Bi-Path Residual Block | Efficient Non-Local Transformer Block | Spatial Cross-Scale Integrator | DSC⬆️ | HD⬇️ |
+| --- | --- | --- | --- | --- | --- |
+| Setting 1 | ✘ | ✘ | ✘ | 84.04 | 16.63 |
+| Setting 2 | ✔ | ✘ | ✘ | 83.36 | 14.70 |
+| Setting 3 | ✔ | ✔ | ✘ | 83.92 | 13.94 |
+| Setting 4 | ✔ | ✔ | ✔ | 84.63 | 11.74 | 
+
+
 - Visualized segmentation results of different methods on the Synapse multi-organ CT dataset. Our method (the last column) exhibits the smoothest boundaries
 and the most accurate segmentation outcomes.
 
