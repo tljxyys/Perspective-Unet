@@ -17,8 +17,6 @@ supplementary material._
 >
 ![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/model_architecture.png)
 ***
-![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/visual_results.png)
-***
 ## Dependencies and Installation
 * Clone this repo:
 ```
@@ -36,21 +34,11 @@ pip install -r requirements.txt
 ```
 ***
 ## Results
-![image](https://github.com/tljxyys/RDSTN_ultrasound/blob/main/fig/Figure%203.png)
-<img src="https://github.com/tljxyys/RDSTN_ultrasound/blob/main/fig/1215.gif" onload="this.onload=null;this.play();" /> <img src="https://github.com/tljxyys/RDSTN_ultrasound/blob/main/fig/1220.gif" onload="this.onload=null;this.play();" /> <img src="https://github.com/tljxyys/RDSTN_ultrasound/blob/main/fig/1222.gif" onload="this.onload=null;this.play();" />
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+***
+![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/visual_results.png)
 
-The figures above are all gif file and will only play once. if you want to see the gif effect, please refresh the page.
 
-## Bibtex
-```
-@INPROCEEDINGS{10447712,
-  author={Hu, Jintong and Che, Hui and Li, Zishuo and Yang, Wenming},
-  booktitle={ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
-  title={Residual Dense Swin Transformer for Continuous Depth-Independent Ultrasound Imaging}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={2280-2284},
-  keywords={Image quality;Visualization;Ultrasonic imaging;Superresolution;Imaging;Streaming media;Transformers;Ultrasound imaging;Arbitrary-scale image super-resolution;Depth-independent imaging;Non-local implicit representation},
-  doi={10.1109/ICASSP48485.2024.10447712}}
-```
