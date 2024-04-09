@@ -34,10 +34,9 @@ pip install -r requirements.txt
 ```
 ***
 ## 2. Data Preparation
-- The Synapse dataset we used are provided by TransUnet's authors. [Get processed data in this link] [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License).
+- The Synapse dataset we used are provided by TransUnet's authors. [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License).
 - The ACDC dataset can be obtained from [![](https://img.shields.io/badge/Dataset-🚀ACDC-blue.svg)](https://www.creatis.insa-lyon.fr/Challenge/acdc/).
-- I am not the owner of these two preprocessed datasets. Please follow the instructions and regulations set by the official releaser of these two datasets.
-- The directory structure of the whole project is as follows:
+- I am not the owner of these two preprocessed datasets. Please follow the instructions and regulations set by the official releaser of these two datasets. The directory structure of the whole project is as follows:
 ```
 .
 ├── datasets
