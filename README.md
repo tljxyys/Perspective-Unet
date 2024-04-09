@@ -1,4 +1,4 @@
-# Perspective+ Unet: Enhancing Segmentation🚀 with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields
+# Perspective+ Unet: Enhancing Segmentation with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields🚀
 
 [![](https://img.shields.io/badge/Project-Page-green.svg)](https://github.com/tljxyys/Perspective-Unet) [![](https://img.shields.io/badge/Paper-ArXiv-red.svg)](https://github.com/tljxyys/Perspective-Unet) [![](https://img.shields.io/badge/Pretrained-🚀Replicate-blue.svg)](https://drive.google.com/drive/folders/1IYZjQWIdCBWFT8fZFC_NQ-sACQH-CNOE?usp=sharing) [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd) [![](https://img.shields.io/badge/Dataset-🚀ACDC-blue.svg)](https://www.creatis.insa-lyon.fr/Challenge/acdc/)
 
