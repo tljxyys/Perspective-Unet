@@ -34,8 +34,7 @@ pip install -r requirements.txt
 ```
 ***
 ## 2. Data Preparation
-- The Synapse dataset we used are provided by TransUnet's authors. [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License).
-- The ACDC dataset can be obtained from [![](https://img.shields.io/badge/Dataset-🚀ACDC-blue.svg)](https://www.creatis.insa-lyon.fr/Challenge/acdc/).
+- The Synapse dataset we used are provided by TransUnet's authors. [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License). The ACDC dataset can be obtained from [![](https://img.shields.io/badge/Dataset-🚀ACDC-blue.svg)](https://www.creatis.insa-lyon.fr/Challenge/acdc/).
 - I am not the owner of these two preprocessed datasets. Please follow the instructions and regulations set by the official releaser of these two datasets. The directory structure of the whole project is as follows:
 ```
 .
@@ -132,8 +131,15 @@ and the most accurate segmentation outcomes.
 our Perspective+ Unet’s accuracy in feature identification and localization.
 
 ![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/intermediate.png)
-
+***
 ## 6. Reference
+- [TransUnet](https://github.com/Beckschen/TransUNet)
+- [SwinUnet](https://github.com/microsoft/Swin-Transformer)
+- [MissFormer](https://github.com/ZhifangDeng/MISSFormer)
 
+## 7. Citation
+```
+This work was done by Jintong Hu, Siyan Chen, Zhiyi Pan, Sen Zeng, Wenming Yang*.
+```
 
 
