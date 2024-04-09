@@ -2,7 +2,7 @@
 [paper]() | [code](https://github.com/tljxyys/Perspective-Unet) | [pretrained model]()
 ***
 >### Abstract:
-_Precise segmentation of medical images is fundamental for extracting critical clinical information, which plays a pivotal role
+>_Precise segmentation of medical images is fundamental for extracting critical clinical information, which plays a pivotal role
 in enhancing the accuracy of diagnoses, formulating effective treatment plans, and improving patient outcomes. Although Convolutional Neural
 Networks (CNNs) and non-local attention methods have achieved notable success in medical image segmentation, they either struggle to capture
 long-range spatial dependencies due to their reliance on local features, or face significant computational and feature integration challenges
