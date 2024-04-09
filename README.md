@@ -122,7 +122,7 @@ results are shown in **bold**.
 | nnFormer | 92.06 | 90.94 | 89.58 | 95.65 |
 | **Perspective+ (Ours)** | **92.54** | **90.92** | **90.49** | **96.20** |
 
-- Ablation study on the impact of modules. BPRB: Bi-Path Residual Block, ENLTB: Efficient Non-Local Transformer Block, SCSI: Spatial Cross-Scale Integrator.
+- Ablation study on the impact of modules. BPRB: Bi-Path Residual Block, ENLTB: Efficient Non-Local Transformer Block, SCSI: Spatial Cross-Scale Integrator. The best results are shown in **bold**.
   
 | Model | BPRS | SCSI | ENLTB | DSC⬆️ | HD⬇️ |
 | --- | --- | --- | --- | --- | --- |
