@@ -66,7 +66,7 @@ The datasets we used are provided by TransUnet's authors. [Get processed data in
 └── trainer
 ```
 ## 3. Results
-| Methods | DSC | HD | Aorta | Gallbladder | Kidney(L) | Kidney(R) | Liver | Pancreas | Spleen | Stomach |
+| Methods | DSC | HD &#8593 | Aorta | Gallbladder | Kidney(L) | Kidney(R) | Liver | Pancreas | Spleen | Stomach |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | U-Net | 76.85 | 39.70 | 89.07 | 69.72 | 77.77 | 68.60 | 93.43 | 53.98 | 86.67 | 75.58 |
 | R50 Att-UNet | 75.57 | 36.97 | 55.92 | 63.91 | 79.20 | 72.71 | 93.56 | 49.37 | 87.19 | 74.95 |
