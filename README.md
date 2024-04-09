@@ -65,7 +65,29 @@ The datasets we used are provided by TransUnet's authors. [Get processed data in
 ├── test
 └── trainer
 ```
-## 3. Results
+***
+## 3. Training
+- Run the train script on synapse dataset. The batch size and epoch we used is 12 and 600, respectively.
+```
+python train.py --dataset Synapse --output_dir './model_output_Synapse' --max_epochs 600 --img_size 224 --base_lr 0.05 --batch_size 12
+```
+- Run the train script on ACDC dataset. The batch size and epoch we used is 12 and 1000, respectively.
+```
+python train.py --dataset Synapse --output_dir './model_output_ACDC' --max_epochs 1000 --img_size 224 --base_lr 0.05 --batch_size 12
+```
+***
+## 4. Testing
+Download the pretrained model for inference. [Get pretrained model in this link] (https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). Please save the .pth file in the ./model_output_Synapse or ./model_output_ACDC
+```
+python test.py --dataset Synapse --is_saveni True --output_dir './model_output_Synapse' --max_epoch 600 --batch_size 12 --test_save_dir './model_output_Synapse/predictions'
+```
+```
+python test.py --dataset ACDC --is_saveni True --output_dir './model_output_ACDC' --max_epoch 1000 --batch_size 12 --test_save_dir './model_output_ACDC/predictions'
+```
+***
+## 5. Results
+- Segmentation accuracy of different methods on the Synapse multi-organ CT
+dataset. The best results are shown in bold.
 | Methods | DSC⬆️ | HD⬇️ | Aorta | Gallbladder | Kidney(L) | Kidney(R) | Liver | Pancreas | Spleen | Stomach |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | U-Net | 76.85 | 39.70 | 89.07 | 69.72 | 77.77 | 68.60 | 93.43 | 53.98 | 86.67 | 75.58 |
@@ -80,6 +102,22 @@ The datasets we used are provided by TransUnet's authors. [Get processed data in
 | FCT | 83.53 | - | 89.85 | 72.73 | __88.45__ | __86.60__ | __95.62__ | 66.25 | 89.77 | 79.42 |
 | MSAANet | 82.85 | 18.54 | 89.40 | 73.20 | 84.31 | 78.53 | 95.10 | 68.85 | 91.60 | 81.78 |
 | __Perspective+ (Ours)__ | __84.63__ | __11.74__ | 89.38 | 70.80 | 87.57 | 85.78 | 95.30 | __70.71__ | __94.41__ | __83.06__ |
+
+- Segmentation accuracy of different methods on the ACDC dataset. The best
+results are shown in bold.
+| Methods | DSC⬆️ | RV | Myo | LV |
+| --- | --- | --- | --- | --- |
+| R50 U-Net | 87.55 | 87.10 | 80.63 | 94.92 |
+| R50 Att-UNet | 86.75 | 87.58 | 79.20 | 93.47 |
+| R50 ViT | 87.57 | 86.07 | 81.88 | 94.75 |
+| TransUNet | 89.71 | 88.86 | 84.53 | 95.73 |
+| SwinUNet | 90.00 | 88.55 | 85.62 | 95.83 |
+| ScaleFormer | 90.17 | 87.33 | 88.16 | 95.04 |
+| UNETR | 88.61 | 85.29 | 86.52 | 94.02 |
+| MCTE | 91.31 | 89.14 | 89.51 | 95.27 |
+| MISSFormer | 91.19 | 89.85 | 88.38 | 95.34 |
+| nnFormer | 92.06 | 90.94 | 89.58 | 95.65 |
+| **Perspective+ (Ours)** | **92.54** | **90.92** | **90.49** | **96.20** |
 ***
 ![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/visual_results.png)
 
