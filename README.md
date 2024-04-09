@@ -69,11 +69,11 @@ The datasets we used are provided by TransUnet's authors. [Get processed data in
 ## 3. Training
 - Run the train script on synapse dataset. The batch size and epoch we used is 12 and 600, respectively.
 ```
-python train.py --dataset Synapse --output_dir './model_output_Synapse' --max_epochs 600 --img_size 224 --batch_size 12
+python train.py --dataset Synapse --output_dir './model_output_Synapse' --max_epochs 600 --batch_size 12
 ```
 - Run the train script on ACDC dataset. The batch size and epoch we used is 12 and 1000, respectively.
 ```
-python train.py --dataset Synapse --output_dir './model_output_ACDC' --max_epochs 1000 --img_size 224 --batch_size 12
+python train.py --dataset Synapse --output_dir './model_output_ACDC' --max_epochs 1000 --batch_size 12
 ```
 ***
 ## 4. Testing
