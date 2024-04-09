@@ -1,6 +1,6 @@
 # Perspective+ Unet: Enhancing Segmentation with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields
 
-[![](https://img.shields.io/badge/Project-Page-green.svg)](https://github.com/tljxyys/Perspective-Unet) [![](https://img.shields.io/badge/Paper-ArXiv-red.svg)](https://github.com/tljxyys/Perspective-Unet) [![](https://img.shields.io/badge/Pretrained-🚀Replicate-blue.svg)](https://drive.google.com/drive/folders/1IYZjQWIdCBWFT8fZFC_NQ-sACQH-CNOE?usp=sharing) [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd)
+[![](https://img.shields.io/badge/Project-Page-green.svg)](https://github.com/tljxyys/Perspective-Unet) [![](https://img.shields.io/badge/Paper-ArXiv-red.svg)](https://github.com/tljxyys/Perspective-Unet) [![](https://img.shields.io/badge/Pretrained-🚀Replicate-blue.svg)](https://drive.google.com/drive/folders/1IYZjQWIdCBWFT8fZFC_NQ-sACQH-CNOE?usp=sharing) [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd) [![](https://img.shields.io/badge/Dataset-🚀ACDC-blue.svg)](https://www.creatis.insa-lyon.fr/Challenge/acdc/)
 
 >**Abstract**: _Precise segmentation of medical images is fundamental for extracting critical clinical information, which plays a pivotal role
 in enhancing the accuracy of diagnoses, formulating effective treatment plans, and improving patient outcomes. Although Convolutional Neural
@@ -34,7 +34,10 @@ pip install -r requirements.txt
 ```
 ***
 ## 2. Data Preparation
-- The datasets we used are provided by TransUnet's authors. [Get processed data in this link] [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License). The directory structure of the whole project is as follows:
+- The Synapse dataset we used are provided by TransUnet's authors. [Get processed data in this link] [![](https://img.shields.io/badge/Dataset-🚀Synapse-blue.svg)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd). If you would like to use the preprocessed data, please use it for research purposes and do not redistribute it (following the TransUnet's License).
+- The ACDC dataset can be obtained from [![](https://img.shields.io/badge/Dataset-🚀ACDC-blue.svg)](https://www.creatis.insa-lyon.fr/Challenge/acdc/).
+- I am not the owner of these two preprocessed datasets. Please follow the instructions and regulations set by the official releaser of these two datasets.
+- The directory structure of the whole project is as follows:
 ```
 .
 ├── datasets
@@ -130,5 +133,8 @@ and the most accurate segmentation outcomes.
 our Perspective+ Unet’s accuracy in feature identification and localization.
 
 ![image](https://github.com/tljxyys/Perspective-Unet/blob/main/fig/intermediate.png)
+
+## 6. Reference
+
 
 
