@@ -127,13 +127,13 @@ results are shown in **bold**.
 | Model | BPRS | SCSI | ENLTB | DSC⬆️ | HD⬇️ |
 | --- | --- | --- | --- | --- | --- |
 | Setting 1 | ✖️ | ✖️ | ✖️ | 84.04 | 16.63 |
-| Setting 1 | ✖️ | ✖️ | ✔️ | 84.55 | 13.60 |
-| Setting 1 | ✖️ | ✔️ | ✖️ | 83.79 | 21.71 |
-| Setting 1 | ✖️ | ✔️ | ✔️ |  |  |
-| Setting 2 | ✔️ | ✖️ | ✖️ | 83.36 | 14.70 |
-| Setting 2 | ✔️ | ✖️ | ✔️ | 85.07 | 14.60 |
-| Setting 3 | ✔️ | ✔️ | ✖️ | 83.92 | 13.94 |
-| Setting 4 | ✔️ | ✔️ | ✔️ | 84.63 | 11.74 | 
+| Setting 2 | ✖️ | ✖️ | ✔️ | 84.55 | 13.60 |
+| Setting 3 | ✖️ | ✔️ | ✖️ | 83.79 | 21.71 |
+| Setting 4 | ✖️ | ✔️ | ✔️ |  |  |
+| Setting 5 | ✔️ | ✖️ | ✖️ | 83.36 | 14.70 |
+| Setting 6 | ✔️ | ✖️ | ✔️ | 85.07 | 14.60 |
+| Setting 7 | ✔️ | ✔️ | ✖️ | 83.92 | 13.94 |
+| Setting 8 | ✔️ | ✔️ | ✔️ | 84.63 | 11.74 | 
 
 
 - Visualized segmentation results of different methods on the Synapse multi-organ CT dataset. Our method (the last column) exhibits the smoothest boundaries
