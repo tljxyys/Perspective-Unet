@@ -122,14 +122,18 @@ results are shown in **bold**.
 | nnFormer | 92.06 | 90.94 | 89.58 | 95.65 |
 | **Perspective+ (Ours)** | **92.54** | **90.92** | **90.49** | **96.20** |
 
-- Ablation study on the impact of modules. BPRB: Bi-Path Residual Block, ENLTB: Efficient Non-Local Transformer Block, SCSI: Spatial Cross-Scale Integrator. The best results are shown in **bold**.
+- Ablation study on the impact of modules. BPRB: Bi-Path Residual Block, ENLTB: Efficient Non-Local Transformer Block, SCSI: Spatial Cross-Scale Integrator. 
   
 | Model | BPRS | SCSI | ENLTB | DSC⬆️ | HD⬇️ |
 | --- | --- | --- | --- | --- | --- |
 | Setting 1 | ✖️ | ✖️ | ✖️ | 84.04 | 16.63 |
+| Setting 1 | ✖️ | ✖️ | ✔️ | 84.55 | 13.60 |
+| Setting 1 | ✖️ | ✔️ | ✖️ | 83.79 | 21.71 |
+| Setting 1 | ✖️ | ✔️ | ✔️ |  |  |
 | Setting 2 | ✔️ | ✖️ | ✖️ | 83.36 | 14.70 |
+| Setting 2 | ✔️ | ✖️ | ✔️ | 85.07 | 14.60 |
 | Setting 3 | ✔️ | ✔️ | ✖️ | 83.92 | 13.94 |
-| Setting 4 | ✔️ | ✔️ | ✔️ | **84.63** | **11.74** | 
+| Setting 4 | ✔️ | ✔️ | ✔️ | 84.63 | 11.74 | 
 
 
 - Visualized segmentation results of different methods on the Synapse multi-organ CT dataset. Our method (the last column) exhibits the smoothest boundaries
