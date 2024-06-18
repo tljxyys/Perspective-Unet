@@ -153,5 +153,5 @@ our Perspective+ Unet’s accuracy in feature identification and localization.
 
 ## 7. Bibtex
 ```
-Still under review.
+
 ```
