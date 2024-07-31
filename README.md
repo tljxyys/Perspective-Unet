@@ -153,5 +153,13 @@ our Perspective+ Unet’s accuracy in feature identification and localization.
 
 ## 7. Bibtex
 ```
-
+@misc{hu2024perspectiveunetenhancingsegmentation,
+      title={Perspective+ Unet: Enhancing Segmentation with Bi-Path Fusion and Efficient Non-Local Attention for Superior Receptive Fields}, 
+      author={Jintong Hu and Siyan Chen and Zhiyi Pan and Sen Zeng and Wenming Yang},
+      year={2024},
+      eprint={2406.14052},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2406.14052}, 
+}
 ```
